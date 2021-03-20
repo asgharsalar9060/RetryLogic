@@ -3,4 +3,44 @@
   <groupId>RetryLogic</groupId>
   <artifactId>RetryLogic</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
+			</plugin>
+			<!-- <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src\test\java\com.tests\LoginTest</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin> -->
+		</plugins>
+	</build>
+	
+	<dependencies>
+	<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+  
 </project>

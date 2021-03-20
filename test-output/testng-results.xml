@@ -2,12 +2,12 @@
 <testng-results retried="6" ignored="0" total="9" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-18T20:06:48 ULAT" name="RetryFailedTestSuite" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="138">
+  <suite started-at="2021-03-20T20:25:57 ULAT" name="RetryFailedTestSuite" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="162">
     <groups>
     </groups>
-    <test started-at="2021-03-18T20:06:48 ULAT" name="RetryMultipleTestCases" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="138">
+    <test started-at="2021-03-20T20:25:57 ULAT" name="RetryMultipleTestCases" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="162">
       <class name="myTests.MyTests">
-        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test1" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="13" status="SKIP">
+        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test1" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="30" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test1" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test1" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="3" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test1" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="Test1()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test1" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -151,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method signature="Test1()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test1" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="3" status="FAIL">
+        <test-method signature="Test1()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test1" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -199,7 +199,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test2" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test2" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="2" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -247,7 +247,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test2" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test2" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="2" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -295,7 +295,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test2" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="5" status="SKIP">
+        <test-method retried="true" signature="Test2()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test2" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="8" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -343,7 +343,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test2()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test2" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="1" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test2" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -391,7 +391,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:myTests.MyTests@37271612]" started-at="2021-03-18T20:06:48 ULAT" name="Test3" finished-at="2021-03-18T20:06:48 ULAT" duration-ms="2" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:myTests.MyTests@6253c26]" started-at="2021-03-20T20:25:58 ULAT" name="Test3" finished-at="2021-03-20T20:25:58 ULAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
